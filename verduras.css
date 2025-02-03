@@ -1,0 +1,235 @@
+body{
+    background: linear-gradient(70deg, #ffffff, #E8DDD6);
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para la imagen de fondo */
+.image-container{
+    position: relative;
+    width: flex;
+    margin: auto;
+}
+
+.image-container img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/* Estilos para el header */
+.header {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.logo1 {
+    width: 50px; 
+}
+
+h1 {
+    font-size: 25px; 
+    margin-left: 10px; 
+    font-family: chewy, sans-serif;
+}
+
+/* Estilos para la cesta y botones de navegación */
+.top-buttons {
+    position: fixed;
+    top: 30px;
+    right: 150px;
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    z-index: 1000; 
+}
+
+.cesta-button button,
+.nav-button button {
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: transparent;
+    font-family: raleway, sans-serif;
+    font-size: 2.3vh;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.cesta-button button:hover,
+.nav-button button:hover {
+    color: #A5BD0A;
+}
+
+.img3 {
+    width: 40px;
+    height: 40px;
+}
+
+.cesta-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.img3 {
+    width: 40px;
+    height: 40px;
+}
+
+.cesta-button button {
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: #E8DDD6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cesta-button button:hover {
+    background-color: #A5BD0A;
+}
+
+/* Fondo blanco para el contenido adicional */
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: raleway, sans-serif;
+}
+
+
+h3{
+    font-family: chewy, sans-serif;
+    font-size: 4rem;
+    text-align: center;
+  }
+/* Estilos para el contenedor de los botones de producto */
+.product-buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espacio entre botones */
+}
+
+/* Estilos para el botón del producto */
+.product-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    padding: 20px;
+    margin: 10px; /* Ajusta el margen según sea necesario */
+    border-radius: 15px;
+    background-color: #E8DDD6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product-button:hover {
+    transform: scale(1.05);
+}
+
+.product-image {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.product-title {
+    font-size: 1.2em;
+    font-family: 'Raleway', sans-serif;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+    margin: 10px 0;
+}
+
+.product-quantity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.product-quantity input {
+    width: 60px;
+    padding: 5px;
+    border: 2px solid #F87163;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product-quantity button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F87163;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-quantity button:hover {
+    background-color: #F87163;
+}
+
+
+
+  /*Footer*/
+.footer {
+    background: linear-gradient(70deg, #ffffff, #E8DDD6);
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  .footer-left, .footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .footer-left p, .footer-right p {
+    margin: 0 0 10px 0;
+  }
+  
+  .footer-logo {
+    width: 90px;
+    height: auto;
+  }
+  
+  .social-media {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-media img {
+    width: 30px;
+    height: auto;
+  }
+  
+  /* Estilos para dispositivos móviles */
+  @media (max-width: 768px) {
+    .top-buttons {
+        position: fixed;
+        top: 30px;
+        right: 100px;
+        display: flex;
+        align-items: center;
+        gap: 10px; 
+        z-index: 1000; 
+      }
+  }

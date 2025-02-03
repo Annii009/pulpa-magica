@@ -1,0 +1,253 @@
+body{
+    background: linear-gradient(70deg, #F87163, #F3831A);
+    margin: 0;
+    padding: 0;
+}
+
+/*logo*/
+.header {
+    display: flex;
+    align-items: center;
+    margin: 70px;
+  }
+  
+  .header2 {
+    margin:140px;
+  }
+  
+  
+  .logo1 {
+    width: 50px; 
+  }
+  
+  h1 {
+    font-size: 25px; 
+    margin-left: 10px; 
+    font-family: chewy, sans-serif;
+}
+
+
+/* Estilos para la cesta y botones de navegación */
+.top-buttons {
+    position: fixed;
+    top: 30px;
+    right: 150px;
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    z-index: 1000; 
+  }
+  
+  .cesta-button button,
+  .nav-button button {
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: transparent;
+    font-family: raleway, sans-serif;
+    font-size: 2.3vh;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .cesta-button button:hover,
+  .nav-button button:hover {
+    color: #A5BD0A;
+  }
+  
+  .img3 {
+    width: 40px;
+    height: 40px;
+  }
+
+  .cesta-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+  }
+  
+  .img3{
+    width: 40px;
+    height: 40px;
+  }
+  
+  .cesta-button button {
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: #E8DDD6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cesta-button button:hover {
+    background-color: #A5BD0A;
+  }
+  
+
+/* Estilos generales */
+.carousel-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.3s ease;
+  }
+  
+  .custom-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px; 
+    height: 500px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px; 
+    background-color: #E8DDD6;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease; /* Transición para cambiar de color, sombra y tamaño */
+    cursor: pointer;
+    flex-shrink: 0; 
+  }
+  
+  .custom-button img {
+    width: 250px; 
+    height: 250px;
+    border-radius: 15px; 
+    margin-bottom: 10px;
+  }
+  
+  .img2 {
+    width: 300px;
+    height: auto;
+  }
+  
+  .text-large {
+    font-size: 6vh; 
+    margin-bottom: 5px;
+    font-family: chewy, sans-serif;
+    text-align: center;
+    color: #A5BD0A;
+  }
+  
+  .text-small {
+    font-size: 2vh; 
+    color: #000000;
+    font-family: raleway, sans-serif;
+    text-align: center;
+  }
+  
+  .custom-button:hover {
+    transform: scale(1.05); 
+    background-color: #F56B8B; 
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #F87163;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .carousel-button.left {
+    left: 10px;
+  }
+  
+  .carousel-button.right {
+    right: 10px;
+  }
+
+
+/*Footer*/
+.footer {
+  background: linear-gradient(70deg, #F87163, #F3831A);
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #e0e0e0;
+}
+
+.footer-left, .footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-left p, .footer-right p {
+  margin: 0 0 10px 0;
+}
+
+.footer-logo {
+  width: 90px;
+  height: auto;
+}
+
+.social-media {
+  display: flex;
+  gap: 10px;
+}
+
+.social-media img {
+  width: 30px;
+  height: auto;
+}
+
+  
+  /* Estilos para dispositivos móviles */
+  @media (max-width: 768px) {
+    .carousel-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .custom-button {
+      width: 50%;
+      height: auto; 
+      padding: 10px;
+      margin: 5px; 
+    }
+  
+    .custom-button img {
+      width: 50%; 
+      height: auto;
+      margin-bottom: 5px;
+    }
+  
+    .text-large {
+      font-size: 4vh; 
+    }
+  
+    .text-small {
+      font-size: 1.5vh;
+    }
+
+    .top-buttons {
+        position: fixed;
+        top: 30px;
+        right: 100px;
+        display: flex;
+        align-items: center;
+        gap: 10px; 
+        z-index: 1000; 
+      }
+  }
+  
